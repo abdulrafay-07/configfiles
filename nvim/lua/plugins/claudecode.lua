@@ -20,26 +20,16 @@ return {
 		"ClaudeCodeCloseAllDiffs",
 	},
 	keys = {
-		{ "<leader>a", nil, desc = "AI/Claude Code" },
 		{
-			"<leader>ac",
+			"<C-h>",
 			function()
-				local ok, snacks = pcall(require, "snacks")
-				if not ok or not snacks then
-					return
-				end
-
-				local pickers = snacks.picker.get({ source = "explorer" })
-				if pickers and #pickers > 0 then
-					pickers[1]:close()
-					vim.cmd("ClaudeCode")
-				else
-					vim.cmd("ClaudeCodeClose")
-					snacks.explorer.open()
-				end
+				vim.cmd("wincmd h")
 			end,
-			desc = "Toggle Claude / Explorer",
+			mode = "t",
+			desc = "Focus editor from Claude",
 		},
+		{ "<leader>a", nil, desc = "AI/Claude Code" },
+		{ "<leader>ac", "<cmd>ClaudeCode<cr>", desc = "Toggle Claude" },
 		{ "<leader>af", "<cmd>ClaudeCodeFocus<cr>", desc = "Focus Claude" },
 		{ "<leader>ar", "<cmd>ClaudeCode --resume<cr>", desc = "Resume Claude" },
 		{ "<leader>aC", "<cmd>ClaudeCode --continue<cr>", desc = "Continue Claude" },
