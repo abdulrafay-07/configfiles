@@ -1,0 +1,31 @@
+[
+  {
+    "bindings": {
+      "cmd-shift-v": "agent::FocusAgent"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-space": "editor::ShowCompletions"
+    }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "ctrl-space": "editor::ShowCompletions"
+    }
+  },
+  {
+    "context": "vim_mode == insert",
+    "bindings": {
+      "cmd-space": "editor::ShowCompletions"
+    }
+  },
+  {
+    "context": "vim_mode == insert",
+    "unbind": {
+      "ctrl-x ctrl-o": "editor::ShowCompletions"
+    }
+  }
+]

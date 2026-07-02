@@ -1,0 +1,37 @@
+{
+  "show_edit_predictions": true,
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
+  },
+  "soft_wrap": "editor_width",
+  "tab_size": 2,
+  "relative_line_numbers": "enabled",
+  "format_on_save": "off",
+  "project_panel": {
+    "auto_fold_dirs": false,
+    "hide_root": true
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "default_config_options": {
+        "model": "default"
+      },
+      "type": "registry"
+    }
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "One Dark"
+  }
+}
