@@ -1,9 +1,11 @@
 {
   "extras": [
+    "lazyvim.plugins.extras.ai.copilot",
     "lazyvim.plugins.extras.lang.git",
     "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.markdown",
     "lazyvim.plugins.extras.lang.tailwind",
+    "lazyvim.plugins.extras.linting.eslint",
     "lazyvim.plugins.extras.util.mini-hipatterns"
   ],
   "install_version": 8,
