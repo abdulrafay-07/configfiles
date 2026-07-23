@@ -30,5 +30,9 @@ keybind = ctrl+h=goto_split:left
 keybind = ctrl+j=goto_split:down
 keybind = ctrl+k=goto_split:up
 keybind = ctrl+l=goto_split:right
-keybind = ctrl+v=new_split:right
-keybind = ctrl+s=new_split:down
+
+keybind = super+d=new_split:right
+keybind = super+shift+d=new_split:down
+keybind = super+ctrl+right_bracket=goto_split:next
+keybind = super+ctrl+left_bracket=goto_split:previous
+keybind = super+ctrl+shift+equal=equalize_splits

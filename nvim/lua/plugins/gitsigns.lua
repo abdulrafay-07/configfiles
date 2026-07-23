@@ -9,7 +9,7 @@ return {
 
 		current_line_blame_formatter = "<author> • <author_time:%Y-%m-%d> • <summary> • <abbrev_sha>",
 
-		word_diff = true,
+		word_diff = false,
 
 		preview_config = {
 			border = "rounded",
