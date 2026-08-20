@@ -10,6 +10,7 @@ config.hide_tab_bar_if_only_one_tab = true
 config.window_decorations = "RESIZE|MACOS_FORCE_ENABLE_SHADOW"
 config.use_fancy_tab_bar = false
 config.window_close_confirmation = "NeverPrompt"
+config.enable_kitty_keyboard = true
 config.colors = {
 	tab_bar = {
 		background = "#191724",
